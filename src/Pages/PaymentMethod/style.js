@@ -1,0 +1,135 @@
+import { StyleSheet,I18nManager} from 'react-native'
+export default StyleSheet.create({
+	body:{
+		backgroundColor:"white"
+	},
+	sectionImageBack:{
+		height:50,
+		justifyContent:"center",
+		backgroundColor:"#fff"
+	},
+	conatinerBtnBack:{
+		paddingHorizontal:15,
+		paddingVertical:5,
+		width:50
+	},
+	baseTitle:{
+		color:"#071E40",
+		fontSize:20,
+		fontFamily:I18nManager.isRTL ? 'ABDALDEM-ALARABI' :"ADAM.CGPRO 400",
+		textAlign:"center",
+		textTransform: "uppercase",
+		backgroundColor:"#fff",
+		paddingBottom:40
+	},
+	imageBack:{
+		width:9,
+		height:14,
+		transform: [{ rotate:  I18nManager.isRTL ? '180deg' : '0deg'}]
+	},
+	containerDatePicker:{
+		flex:1,  
+		backgroundColor:"#fff",
+	}, 
+	title:{
+		fontSize:20,
+		textAlign:"center",
+	},
+	conatinerBtnDone:{
+		backgroundColor: "#90d12f",
+		textAlign:"center",
+		height:50,
+		justifyContent:"center",
+		alignItems:"center",
+	},
+	textBtn:{
+		color:"white",
+		fontSize:18,
+		fontFamily:I18nManager.isRTL ? 'ABDALDEM-ALARABI' :"Roboto-Medium",
+	},
+	card:{
+		flexDirection:"row",
+		justifyContent:"space-between",
+		alignItems:"center",
+		height:80,
+		paddingHorizontal:15,
+		borderColor:"#EFF2F7",
+		borderWidth:1,
+		marginHorizontal:15,
+		marginVertical:7,
+		borderRadius:4,
+	},
+	activecCard:{
+		borderColor:"#90d12f",
+		borderWidth:1,
+	},
+	imageMaster:{
+		width:52,
+		height:33,
+		resizeMode:"contain"
+	},
+	info:{
+		flexDirection:"row",
+		alignItems:"center"
+	},
+	correctShap:{
+		backgroundColor:"#90D12F",
+		width:23,
+		height:23,
+		justifyContent:"center",
+		alignItems:"center",
+		borderRadius:8
+	},
+	imageCorrect:{
+		width:11,
+		height:9
+	},
+	titlePayment:{
+		color:"#071E40",
+		fontSize:16,
+		fontFamily:I18nManager.isRTL ? 'ABDALDEM-ALARABI' :"Roboto-Bold",
+		paddingHorizontal:5
+	},
+	sectionTotal:{
+		backgroundColor:"white",
+		paddingHorizontal:15,
+	},
+	sectionBody:{
+		borderColor:"#E8E9E9",
+		borderBottomWidth:1,
+		flexDirection:"row",
+		justifyContent:"space-between",
+	},
+	textTotal:{
+		fontFamily:I18nManager.isRTL ? 'ABDALDEM-ALARABI' :"Roboto-Regular",
+		fontSize:13,
+		color:"#777777"
+	},
+	price:{
+		fontFamily:I18nManager.isRTL ? 'ABDALDEM-ALARABI' :"Roboto-Bold",
+		fontSize:21,
+		color:"#90D12F"
+	},
+	currency:{
+		fontFamily:I18nManager.isRTL ? 'ABDALDEM-ALARABI' :"Roboto-Regular",
+		fontSize:14,
+	},
+	footer:{
+		padding:15,
+		flexDirection:"row"
+	},
+	textAdd:{
+		color:"#90D12F",
+		fontSize:15,
+		fontFamily:I18nManager.isRTL ? 'ABDALDEM-ALARABI' :"Roboto-Regular",
+	},
+	textMethod:{
+		backgroundColor:"white",
+		paddingHorizontal:15,
+		paddingTop:20
+	},
+	imageaddPayment:{
+		width:17,
+		height:17
+	}
+})
